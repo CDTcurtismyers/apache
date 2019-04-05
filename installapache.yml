@@ -13,7 +13,7 @@
   -name: create html file
    copy:
     content: "Hello World Test"
-    dest: var/www/html/index.html
+    dest: /var/www/html/index.html
 
   -name: start http service
    service:
