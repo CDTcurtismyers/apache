@@ -1,0 +1,22 @@
+---
+-Name: Apache
+ hosts: ServiceNowAWS
+ remote_user: ec2-user
+ become: true
+
+ tasks:
+  -name: install httpd
+   yum: 
+    name: httpd
+    state: latest
+
+  -name: create html file
+   copy:
+    content: "Hello World Test"
+    dest: var/www/html/index.html
+
+  -name: start http service
+   service:
+    name: httpd
+    state: started
+    enabled: true
