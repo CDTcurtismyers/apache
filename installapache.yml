@@ -12,6 +12,5 @@
       name: "ensure apache is running"
       service: "name=httpd state=running enabled=yes"
     - 
-      content: "Hello World Test"
-      dest: /var/www/html/index.html
-      name: "create html file"
+      git: "repo=https://github.com/do-community/ansible-apache-tutorial.git dest=/var/www/index.html update=no"
+      name: "clone basic html template"
