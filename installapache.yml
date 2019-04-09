@@ -1,11 +1,16 @@
 --- 
 - 
+  become: true
+  become_method: sudo
   hosts: apache
-  sudo: true
+  name: "install apache and configure"
   tasks: 
     - 
-      apt: "name=apache2 update_cache=yes state=latest"
-      name: "install apache2"
+      name: "install apache"
+      yum: "pkg=httpd state=latest"
+    - 
+      name: "ensure apache is running"
+      service: "name=httpd state=running enabled=yes"
     - 
       content: "Hello World Test"
       dest: /var/www/html/index.html
