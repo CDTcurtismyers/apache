@@ -2,7 +2,7 @@
 - 
   become: true
   become_method: sudo
-  hosts: 
+  hosts: All
   name: "install apache and configure"
   tasks: 
     - 
