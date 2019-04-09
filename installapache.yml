@@ -13,5 +13,7 @@
       service: "name=httpd state=started enabled=yes"
     - 
       name: "html file setup"
-      echo: "Hello World"
-      dest: /var/www/html/index.html
+      file:
+        path: /var/www/html/index.html
+        content: "Hello W0rld"
+        state: touch
