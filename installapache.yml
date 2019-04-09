@@ -10,7 +10,7 @@
       yum: "pkg=httpd state=latest"
     - 
       name: "ensure apache is running"
-      service: "name=httpd state=running enabled=yes"
+      service: "name=httpd state=started enabled=yes"
     - 
       git: "repo=https://github.com/do-community/ansible-apache-tutorial.git dest=/var/www/index.html update=no"
       name: "clone basic html template"
