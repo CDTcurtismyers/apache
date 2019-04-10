@@ -7,13 +7,13 @@
   name: "install apache and configure"
   tasks: 
     - 
-      name: "install apache"
-      yum: "pkg=httpd state=latest"
+      sname: "install apache"
+      syum: "pkg=httpd state=latest"
     - 
-      name: "ensure apache is running"
-      service: "name=httpd state=started enabled=yes"
+      sname: "ensure apache is running"
+      sservice: "name=httpd state=started enabled=yes"
     - 
-      name: "html file setup"
-      copy:
+      sname: "html file setup"
+      scopy:
         dest: /var/www/html/index.html
         content: "Now that this finally works we can rule the world, Hello by the way"
