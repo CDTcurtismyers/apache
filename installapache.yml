@@ -14,8 +14,8 @@
       service: "name=httpd state=started enabled=yes"
     - 
       name: "html file setup"
-      file:
-        path: /var/www/html/index.html
+      copy:
+        dest: /var/www/html/index.html
         content: "Hello W0rld"
         #state: touch
     -
