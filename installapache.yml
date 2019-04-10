@@ -16,7 +16,7 @@
       file:
         path: /var/www/html/index.html
         content: "Hello W0rld"
-        state: touch
+        #state: touch
     -
       name: restart apache
       service: name=httpd state=restarted
