@@ -16,8 +16,4 @@
       name: "html file setup"
       copy:
         dest: /var/www/html/index.html
-        content: "Hello W0rld"
-        #state: touch
-    -
-      name: restart apache
-      service: name=httpd state=restarted
+        content: "Now that this finally works we can rule the world, Hello by the way"
