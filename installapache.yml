@@ -16,4 +16,135 @@
       name: "html file setup"
       copy:
         dest: /var/www/html/index.html
-        content: "Now that this finally works we can rule the world, Hello by the way"
+        content: "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Policy/Guidelines Update</title>
+<style type="text/css">
+	
+body {
+	font-size: 12px;
+	color: #000000;
+	text-align: right;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+.Headers {
+	font-size: 18px;
+	font-weight: bold;
+	color: #002F5B;
+
+}
+.Request {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: #b54101;
+}
+.Title {
+	font-weight: bold;
+	color: #FFF;
+	font-size: 20px;
+	text-align: center;
+}
+.Header2 {
+	color: #000;
+}
+.footer {
+	  font-size: 12px;
+}
+</style>
+</head>
+
+<body>
+	<table width="40%" align="center" border="0" cellpadding="0" cellspacing="0">
+       <tbody>
+           <tr>
+              <td align="center"><font size="1" face="Arial, Helvetica, sans-serif" color="#a9a9a9">If you have trouble viewing this message please <a href="http://marketing.otech.ca.gov/cdt/PolicyGuidelines_19-004.html" target="_blank" style="color: #818181;">click here</a></font>	<br /><br />					
+			   </td>                     
+		   </tr>
+        </tbody>
+    </table>
+<table width="600" style="border: 1px solid #666666; text-align: left;" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2"><a href="https://cdt.ca.gov/policy/announcements/" target="_blank"><img width="600" border="0" height="230" style="display:block; border:none; outline:none; text-decoration:none;" src="http://marketing.otech.ca.gov/cdt/cdt-header-followup.jpg" alt="Customer Forum Header" title="Policy/Guidelines Update Header" class="banner" /></a></td>
+  </tr>
+
+<td height="45" colspan="2" bgcolor="#164573">
+	<table border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+		  <font face="Helvetica, Arial, sans-serif" color="#ffffff" size="5"><strong><center>Policy/Guidelines Update</center></strong>
+      </font></tr>
+    </table>
+	</td>
+	
+  <tr>
+  	<td colspan="2">
+    	<table width="600" cellpadding="7" cellspacing="0" style="border-bottom: 1px solid #c0c0c0c; text-align: left; color: #e66112;  font-size: 16px;">
+        	<tr bgcolor="#EBEBEB">
+				<td style="text-align: right" valign="top" width="115"><font face="Arial, Helvetica, sans-serif" size="3" color="#164573"><strong>DATE ISSUED:</strong></font></td>
+				<td style="color:#000000"><font face="Arial, Helvetica, sans-serif" size="3">January 2019</font></td>
+            </tr>
+			<tr bgcolor="#EBEBEB">
+			<td style="text-align: right" valign="top"><font face="Arial, Helvetica, sans-serif" size="3" color="#164573"><strong>TO:</strong></font></td>
+				<td style="color:#000000"><font face="Arial, Helvetica, sans-serif" size="3">Chief Information Officers (CIO)<br /> Information Security Officers (ISO)<br />Agency Chief Information Officers (AIO)<br />Agency Information Security Officers (AISO)</font></td>
+            </tr>
+			<tr bgcolor="#EBEBEB">
+				<td style="text-align: right" valign="top"><font face="Arial, Helvetica, sans-serif" size="3" color="#164573"><strong>SUBJECT:</strong></font></td>
+				<td style="color:#000000"><font face="Arial, Helvetica, sans-serif" size="3">Endpoint Protection Standard</font></td>
+            </tr>
+        </table>
+    </td>
+  </tr>
+  
+  <tr>
+    <td colspan="2">
+            <table border="0" align="center" cellpadding="0" cellspacing="10">
+              <tr>
+                <td style="padding-left: 33px; padding-right: 35px;"><p><span class="Headers"><font face="Arial, Helvetica, sans-serif" size="3">BACKGROUND<br /><br />
+                </font></span><font face="Arial, Helvetica, sans-serif" size="3">
+					<font face="Arial, Helvetica, sans-serif" size="2"> The California Department of Technology (CDT) Office of Information Security (OIS) has developed the Endpoint Protection Standard (SIMM 5355-A).  This policy introduces required minimum endpoint protection standards as part of a defense in depth security strategy. Effective immediately, Agency/state entities must ensure that endpoints for their respective organization(s) include the endpoint protections outlined in SIMM 5355-A.  If an Agency/state entity has already acquired or implemented a solution that does not currently meet this standard, the Agency/state entity must identify the deficiency and include a remediation plan in its next Plan of Action and Milestones (POAM) submission.   <br /></font></font></p><font face="Arial, Helvetica, sans-serif" size="3">
+<p><span class="Headers">PURPOSE</span><br />
+  </p><font face="Arial, Helvetica, sans-serif" size="2">The purpose of this Policy/Guidelines Update is to announce:
+<ul>
+	<li>New SIMM Section 5355-A Endpoint Protection Standard which includes minimum requirements for endpoint protection. </li><br />
+	<li>Updated SAM Section 5355 to include reference to Endpoint Protection Standard (SIMM 5355-A). </li><br />
+	
+</ul>
+</font>
+	
+	<p><span class="Headers">REFERENCES</span><br />
+  </p><font face="Arial, Helvetica, sans-serif" size="2">The following reference materials are associated with this Policy/Guidelines Update. Statewide Information Management Manual (SIMM) is available on CDT’s website located at: <a href="https://cdt.ca.gov/policy/simm/" target='_blank'><u>https://cdt.ca.gov/policy/simm/</u></a>. The State Administrative Manual (SAM) is available on the Department of General Services website located at:<a href="http://sam.dgs.ca.gov/" target='_blank'><u>http://sam.dgs.ca.gov/</u></a>.
+<ul>
+	<li>SAM Section 5355</li>
+	<li>SIMM Section 5355-A</li>
+
+</ul>
+	
+</font>
+
+</font></td>
+              </tr>
+            </table>
+
+    </td>
+  </tr>
+   <tr>
+    <td colspan="2" align="center"><img src="http://marketing.otech.ca.gov/CDD/techalert/images/techalert-footer.jpg" width="600" height="50" alt="footer" /></td>
+  </tr>
+  <tr>
+    <td width="19" align="left" cell padding= "33px">&nbsp;</td>
+    <td height= "50" align="left" cell padding= "33px"><p><span class="footer"><font face="Arial, Helvetica, sans-serif" size="2">Questions regarding this announcement should be directed to the Department of Technology, <br />Office of Information Security at <a href="mailto:security@state.ca.gov">security@state.ca.gov</a>.</font></span>
+      </p>
+
+   </td>
+  </tr>
+	<table width="600" style="text-align: right;" align="center" cellpadding="4" cellspacing="0"> 
+	<tr>
+	<td>(PG 19-004)</td>
+	</tr>
+	</table>
+</table></body>
+</html>"
+
+
