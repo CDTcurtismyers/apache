@@ -16,135 +16,88 @@
       name: "html file setup"
       copy:
         dest: /var/www/html/index.html
-        content: "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Policy/Guidelines Update</title>
-<style type="text/css">
-	
-body {
-	font-size: 12px;
-	color: #000000;
-	text-align: right;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-}
-.Headers {
-	font-size: 18px;
-	font-weight: bold;
-	color: #002F5B;
-
-}
-.Request {
-	text-align: center;
-	font-weight: bold;
-	font-size: 20px;
-	color: #b54101;
-}
-.Title {
-	font-weight: bold;
-	color: #FFF;
-	font-size: 20px;
-	text-align: center;
-}
-.Header2 {
-	color: #000;
-}
-.footer {
-	  font-size: 12px;
-}
-</style>
-</head>
-
-<body>
-	<table width="40%" align="center" border="0" cellpadding="0" cellspacing="0">
-       <tbody>
-           <tr>
-              <td align="center"><font size="1" face="Arial, Helvetica, sans-serif" color="#a9a9a9">If you have trouble viewing this message please <a href="http://marketing.otech.ca.gov/cdt/PolicyGuidelines_19-004.html" target="_blank" style="color: #818181;">click here</a></font>	<br /><br />					
-			   </td>                     
-		   </tr>
-        </tbody>
-    </table>
-<table width="600" style="border: 1px solid #666666; text-align: left;" align="center" cellpadding="0" cellspacing="0">
-  <tr>
-    <td colspan="2"><a href="https://cdt.ca.gov/policy/announcements/" target="_blank"><img width="600" border="0" height="230" style="display:block; border:none; outline:none; text-decoration:none;" src="http://marketing.otech.ca.gov/cdt/cdt-header-followup.jpg" alt="Customer Forum Header" title="Policy/Guidelines Update Header" class="banner" /></a></td>
-  </tr>
-
-<td height="45" colspan="2" bgcolor="#164573">
-	<table border="0" align="center" cellpadding="0" cellspacing="0">
-      <tr>
-		  <font face="Helvetica, Arial, sans-serif" color="#ffffff" size="5"><strong><center>Policy/Guidelines Update</center></strong>
-      </font></tr>
-    </table>
-	</td>
-	
-  <tr>
-  	<td colspan="2">
-    	<table width="600" cellpadding="7" cellspacing="0" style="border-bottom: 1px solid #c0c0c0c; text-align: left; color: #e66112;  font-size: 16px;">
-        	<tr bgcolor="#EBEBEB">
-				<td style="text-align: right" valign="top" width="115"><font face="Arial, Helvetica, sans-serif" size="3" color="#164573"><strong>DATE ISSUED:</strong></font></td>
-				<td style="color:#000000"><font face="Arial, Helvetica, sans-serif" size="3">January 2019</font></td>
-            </tr>
-			<tr bgcolor="#EBEBEB">
-			<td style="text-align: right" valign="top"><font face="Arial, Helvetica, sans-serif" size="3" color="#164573"><strong>TO:</strong></font></td>
-				<td style="color:#000000"><font face="Arial, Helvetica, sans-serif" size="3">Chief Information Officers (CIO)<br /> Information Security Officers (ISO)<br />Agency Chief Information Officers (AIO)<br />Agency Information Security Officers (AISO)</font></td>
-            </tr>
-			<tr bgcolor="#EBEBEB">
-				<td style="text-align: right" valign="top"><font face="Arial, Helvetica, sans-serif" size="3" color="#164573"><strong>SUBJECT:</strong></font></td>
-				<td style="color:#000000"><font face="Arial, Helvetica, sans-serif" size="3">Endpoint Protection Standard</font></td>
-            </tr>
-        </table>
-    </td>
-  </tr>
-  
-  <tr>
-    <td colspan="2">
-            <table border="0" align="center" cellpadding="0" cellspacing="10">
-              <tr>
-                <td style="padding-left: 33px; padding-right: 35px;"><p><span class="Headers"><font face="Arial, Helvetica, sans-serif" size="3">BACKGROUND<br /><br />
-                </font></span><font face="Arial, Helvetica, sans-serif" size="3">
-					<font face="Arial, Helvetica, sans-serif" size="2"> The California Department of Technology (CDT) Office of Information Security (OIS) has developed the Endpoint Protection Standard (SIMM 5355-A).  This policy introduces required minimum endpoint protection standards as part of a defense in depth security strategy. Effective immediately, Agency/state entities must ensure that endpoints for their respective organization(s) include the endpoint protections outlined in SIMM 5355-A.  If an Agency/state entity has already acquired or implemented a solution that does not currently meet this standard, the Agency/state entity must identify the deficiency and include a remediation plan in its next Plan of Action and Milestones (POAM) submission.   <br /></font></font></p><font face="Arial, Helvetica, sans-serif" size="3">
-<p><span class="Headers">PURPOSE</span><br />
-  </p><font face="Arial, Helvetica, sans-serif" size="2">The purpose of this Policy/Guidelines Update is to announce:
-<ul>
-	<li>New SIMM Section 5355-A Endpoint Protection Standard which includes minimum requirements for endpoint protection. </li><br />
-	<li>Updated SAM Section 5355 to include reference to Endpoint Protection Standard (SIMM 5355-A). </li><br />
-	
-</ul>
-</font>
-	
-	<p><span class="Headers">REFERENCES</span><br />
-  </p><font face="Arial, Helvetica, sans-serif" size="2">The following reference materials are associated with this Policy/Guidelines Update. Statewide Information Management Manual (SIMM) is available on CDT’s website located at: <a href="https://cdt.ca.gov/policy/simm/" target='_blank'><u>https://cdt.ca.gov/policy/simm/</u></a>. The State Administrative Manual (SAM) is available on the Department of General Services website located at:<a href="http://sam.dgs.ca.gov/" target='_blank'><u>http://sam.dgs.ca.gov/</u></a>.
-<ul>
-	<li>SAM Section 5355</li>
-	<li>SIMM Section 5355-A</li>
-
-</ul>
-	
-</font>
-
-</font></td>
-              </tr>
-            </table>
-
-    </td>
-  </tr>
-   <tr>
-    <td colspan="2" align="center"><img src="http://marketing.otech.ca.gov/CDD/techalert/images/techalert-footer.jpg" width="600" height="50" alt="footer" /></td>
-  </tr>
-  <tr>
-    <td width="19" align="left" cell padding= "33px">&nbsp;</td>
-    <td height= "50" align="left" cell padding= "33px"><p><span class="footer"><font face="Arial, Helvetica, sans-serif" size="2">Questions regarding this announcement should be directed to the Department of Technology, <br />Office of Information Security at <a href="mailto:security@state.ca.gov">security@state.ca.gov</a>.</font></span>
-      </p>
-
-   </td>
-  </tr>
-	<table width="600" style="text-align: right;" align="center" cellpadding="4" cellspacing="0"> 
-	<tr>
-	<td>(PG 19-004)</td>
-	</tr>
-	</table>
-</table></body>
-</html>"
+        content: "<table style="width: 444.55pt; background: #F7FCFE; border-collapse: collapse;" width="0">
+                  <tbody>
+                  <tr style="page-break-inside: avoid; height: 196.85pt;">
+                  <td style="width: 444.55pt; padding: 0in 0in 0in 0in; height: 196.85pt;" width="621">
+                  <table style="width: 444.5pt; border-collapse: collapse;" width="0">
+                  <tbody>
+                  <tr style="page-break-inside: avoid; height: .85pt;">
+                  <td style="width: 444.0pt; background: #3AA8E5; padding: 3.75pt 3.75pt 3.75pt 3.75pt; height: .85pt;" colspan="2" width="592">
+                  <p style="text-align: center; margin: 0in 7.5pt .0001pt 9.0pt;"><strong><span style="font-family: 'Arial',sans-serif; color: white; text-transform: uppercase;">SERVICE DESK BULLETIN</span></strong></p>
+                  </td>
+                  <td style="background: #3AA8E5; padding: 0in 0in 0in 0in; height: .85pt;">
+                  <p style="text-align: center; margin: 0in 7.5pt .0001pt 9.0pt;"><strong><span style="font-family: 'Arial',sans-serif; color: white; text-transform: uppercase;">&nbsp;</span></strong></p>
+                  </td>
+                  <td style="background: #3AA8E5; padding: 0in 0in 0in 0in; height: .85pt;">
+                  <p style="text-align: center; margin: 0in 7.5pt .0001pt 9.0pt;"><strong><span style="font-family: 'Arial',sans-serif; color: white; text-transform: uppercase;">&nbsp;</span></strong></p>
+                  </td>
+                  </tr>
+                  <tr style="page-break-inside: avoid; height: .85pt;">
+                  <td style="width: 444.0pt; background: #3AA8E5; padding: 3.75pt 3.75pt 3.75pt 3.75pt; height: .85pt;" colspan="2" width="592">
+                  <p style="margin: 0in 7.5pt .0001pt 9.0pt;"><strong><span style="font-family: 'Arial',sans-serif; color: white;">Subject:&nbsp;CalCloud Windows Tenant Patching (</span></strong><strong><span style="font-family: 'Arial',sans-serif; color: red;">Second </span></strong><strong><span style="font-family: 'Arial',sans-serif; color: white;">Window)</span></strong></p>
+                  </td>
+                  <td style="background: #3AA8E5; padding: 0in 0in 0in 0in; height: .85pt;">
+                  <p style="margin: 0in 7.5pt .0001pt 9.0pt;"><strong><span style="font-family: 'Arial',sans-serif; color: white;">&nbsp;</span></strong></p>
+                  </td>
+                  <td style="background: #3AA8E5; padding: 0in 0in 0in 0in; height: .85pt;">
+                  <p style="margin: 0in 7.5pt .0001pt 9.0pt;"><strong><span style="font-family: 'Arial',sans-serif; color: white;">&nbsp;</span></strong></p>
+                  </td>
+                  </tr>
+                  <tr style="page-break-inside: avoid; height: 3.55pt;">
+                  <td style="width: 261.65pt; background: #98D0F2; padding: 3.75pt 3.75pt 3.75pt 3.75pt; height: 3.55pt;" width="349">
+                  <p style="margin: 0in 7.5pt .0001pt 9.0pt;"><strong><span style="font-family: 'Arial',sans-serif; color: #164675;">Reference Number:</span></strong></p>
+                  </td>
+                  <td style="background: #98D0F2; padding: 3.75pt 3.75pt 3.75pt 3.75pt; height: 3.55pt;">
+                  <p style="margin-right: 7.5pt;"><span style="font-family: 'Arial',sans-serif; color: red;">CRQ000002131200</span></p>
+                  </td>
+                  <td style="background: #98D0F2; padding: 0in 0in 0in 0in; height: 3.55pt;">
+                  <p style="margin-right: 7.5pt;"><span style="font-family: 'Arial',sans-serif; color: #164675;">&nbsp;</span></p>
+                  </td>
+                  <td style="background: #98D0F2; padding: 0in 0in 0in 0in; height: 3.55pt;">
+                  <p style="margin-right: 7.5pt;"><span style="font-family: 'Arial',sans-serif; color: #164675;">&nbsp;</span></p>
+                  </td>
+                  </tr>
+                  <tr style="page-break-inside: avoid; height: .85pt;">
+                  <td style="width: 261.65pt; background: #98D0F2; padding: 3.75pt 3.75pt 3.75pt 3.75pt; height: .85pt;" width="349">
+                  <p style="margin: 0in 7.5pt .0001pt 9.0pt;"><strong><span style="font-family: 'Arial',sans-serif; color: #164675;">Event Date/Time:</span></strong></p>
+                  </td>
+                  <td style="background: #98D0F2; padding: 3.75pt 3.75pt 3.75pt 3.75pt; height: .85pt;">
+                  <p style="margin-right: 7.5pt;"><span style="font-family: 'Arial',sans-serif; color: red;">2/2/2018 @ 6:00 PM</span></p>
+                  </td>
+                  <td style="background: #98D0F2; padding: 0in 0in 0in 0in; height: .85pt;">
+                  <p style="margin-right: 7.5pt;"><span style="font-family: 'Arial',sans-serif; color: #164675;">&nbsp;</span></p>
+                  </td>
+                  <td style="background: #98D0F2; padding: 0in 0in 0in 0in; height: .85pt;">
+                  <p style="margin-right: 7.5pt;"><span style="font-family: 'Arial',sans-serif; color: #164675;">&nbsp;</span></p>
+                  </td>
+                  </tr>
+                  <tr style="page-break-inside: avoid; height: 3.55pt;">
+                  <td style="width: 261.65pt; background: #C4E4F8; padding: 3.75pt 3.75pt 3.75pt 3.75pt; height: 3.55pt;" width="349">
+                  <p style="margin: 0in 7.5pt .0001pt 9.0pt;"><strong><span style="font-family: 'Arial',sans-serif; color: #164675;">Start Date/Time:</span></strong></p>
+                  </td>
+                  <td style="background: #C4E4F8; padding: 3.75pt 3.75pt 3.75pt 3.75pt; height: 3.55pt;">
+                  <p style="margin-right: 7.5pt;"><span style="font-family: 'Arial',sans-serif; color: red;">2/2/2018 @ 6:00 PM</span></p>
+                  </td>
+                  <td style="background: #C4E4F8; padding: 0in 0in 0in 0in; height: 3.55pt;">
+                  <p style="margin-right: 7.5pt;"><span style="font-family: 'Arial',sans-serif; color: #164675;">&nbsp;</span></p>
+                  </td>
+                  <td style="background: #C4E4F8; padding: 0in 0in 0in 0in; height: 3.55pt;">
+                  <p style="margin-right: 7.5pt;"><span style="font-family: 'Arial',sans-serif; color: #164675;">&nbsp;</span></p>
+                  </td>
+                  </tr>
+		  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  </td>
+                  </tr>
+                  <tr style="page-break-inside: avoid; height: 8.25pt;">
+                  <td style="width: 444.55pt; background: white; padding: 0in 0in 0in 0in; height: 8.25pt;" width="621">
+                  <p style="text-align: center;"><strong><span style="font-size: 8.0pt; font-family: 'Arial',sans-serif; color: #164675;">&nbsp;&nbsp;&nbsp;California Department of Technology</span></strong></p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>"
 
 
