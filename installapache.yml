@@ -16,7 +16,7 @@
       name: "html file setup"
       copy:
         dest: /var/www/html/index.html
-        content: "[<table style="width: 444.55pt; background: #F7FCFE; border-collapse: collapse;" width="0">
+        content: '"<table style="width: 444.55pt; background: #F7FCFE; border-collapse: collapse;" width="0">
                   <tbody>
                   <tr style="page-break-inside: avoid; height: 196.85pt;">
                   <td style="width: 444.55pt; padding: 0in 0in 0in 0in; height: 196.85pt;" width="621">
@@ -98,6 +98,6 @@
                   </td>
                   </tr>
                   </tbody>
-                  </table>]"
+                  </table>"'
 
 
